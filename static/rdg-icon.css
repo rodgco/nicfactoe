@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "rdg";
+  src: url('./fonts/rdg.eot?t=1649296983704'); /* IE9*/
+  src: url('./fonts/rdg.eot?t=1649296983704#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/rdg.woff2?t=1649296983704") format("woff2"),
+  url("./fonts/rdg.woff?t=1649296983704") format("woff"),
+  url('./fonts/rdg.ttf?t=1649296983704') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/rdg.svg?t=1649296983704#rdg') format('svg'); /* iOS 4.1- */
+}
+
+[class^="rdg-"], [class*=" rdg-"] {
+  font-family: 'rdg' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.rdg-circle:before { content: "\ea01"; }
+.rdg-cross:before { content: "\ea02"; }
+.rdg-dao:before { content: "\ea03"; }
+.rdg-github:before { content: "\ea04"; }
+.rdg-info-circle:before { content: "\ea05"; }
+.rdg-markdown-mark:before { content: "\ea06"; }
+.rdg-play:before { content: "\ea07"; }
+.rdg-qa:before { content: "\ea08"; }
